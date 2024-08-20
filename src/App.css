@@ -65,7 +65,6 @@ header .themeSelector .activeTheme {
 
 .addTask form {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 7px;
 }
@@ -204,11 +203,17 @@ header .themeSelector .activeTheme {
   cursor: pointer;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
   .showTask li {
     width: 100%;
   }
   .addTask form input {
-    width: 100px;
+    width: 200px;
+  }
+  .addTask form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
   }
 }
