@@ -209,6 +209,6 @@ header .themeSelector .activeTheme {
     width: 100%;
   }
   .addTask form input {
-    width: 150px;
+    width: 100px;
   }
 }
